@@ -7,11 +7,14 @@
 
 import SwiftUI
 
+
 @main
 struct KeywordSearcherApp: App {
     var body: some Scene {
         DocumentGroup(newDocument: KeywordSearcherDocument()) { file in
             ContentView(document: file.$document)
-        }
+        }       
     }
 }
+
+
